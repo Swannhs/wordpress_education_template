@@ -168,6 +168,22 @@
         </div>
     </section>
 </footer>
+<script src="<?php echo get_template_directory_uri() . '/assets/js/jquery-2.1.4.min.js' ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/assets/js/bootstrap.min.js' ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/assets/js/popper.min.js' ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/assets/js/owl.carousel.min.js' ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/assets/js/jarallax.js' ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/assets/js/jquery.magnific-popup.min.js' ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/assets/js/lightbox.js' ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/assets/js/jquery.meanmenu.js' ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/assets/js/scrollreveal.min.js' ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/assets/js/jquery.counterup.min.js' ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/assets/js/waypoints.min.js' ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/assets/js/jquery-ui.js' ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/assets/js/gmap3.min.js' ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/assets/js/switch.js' ?>"></script>
+<script src="http://maps.google.com/maps/api/js?key=AIzaSyC61_QVqt9LAhwFdlQmsNwi5aUJy9B2SyA"></script>
+<script src="<?php echo get_template_directory_uri() . '/assets/js/script.js' ?>"></script>
 <?php wp_footer(); ?>
 </body>
 </html>

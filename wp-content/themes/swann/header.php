@@ -6,33 +6,6 @@
 <div id="preloader"></div>
 
 
-<div id="switch-color" class="color-switcher">
-    <div class="open"><i class="fas fa-cog fa-spin"></i></div>
-    <h4>COLOR OPTION</h4>
-    <ul>
-        <li><a class="color-2" onclick="setActiveStyleSheet('color-2'); return true;" href="#!"><i
-                        class="fas fa-circle"></i></a></li>
-        <li><a class="color-3" onclick="setActiveStyleSheet('color-3'); return true;" href="#!"><i
-                        class="fas fa-circle"></i></a></li>
-        <li><a class="color-4" onclick="setActiveStyleSheet('color-4'); return true;" href="#!"><i
-                        class="fas fa-circle"></i></a></li>
-        <li><a class="color-5" onclick="setActiveStyleSheet('color-5'); return true;" href="#!"><i
-                        class="fas fa-circle"></i></a></li>
-        <li><a class="color-6" onclick="setActiveStyleSheet('color-6'); return true;" href="#!"><i
-                        class="fas fa-circle"></i></a></li>
-        <li><a class="color-7" onclick="setActiveStyleSheet('color-7'); return true;" href="#!"><i
-                        class="fas fa-circle"></i></a></li>
-        <li><a class="color-8" onclick="setActiveStyleSheet('color-8'); return true;" href="#!"><i
-                        class="fas fa-circle"></i></a></li>
-        <li><a class="color-9" onclick="setActiveStyleSheet('color-9'); return true;" href="#!"><i
-                        class="fas fa-circle"></i></a></li>
-    </ul>
-    <button class="switcher-light">WIDE</button>
-    <button class="switcher-dark">BOX</button>
-    <a class="rtl-v" href="RTL_Genius/index.html">RTL </a>
-</div>
-
-
 <!-- Start of Header section
     ============================================= -->
 <header>
@@ -137,13 +110,7 @@
                         <div class="nav-menu ul-li">
                             <ul>
                                 <li class="menu-item-has-children ul-li-block">
-                                    <a href="#">Home</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="index-1.html">Home 1</a></li>
-                                        <li><a href="index-2.html">Home 2</a></li>
-                                        <li><a href="index-3.html">Home 3</a></li>
-                                        <li><a href="index-4.html">Home 4</a></li>
-                                    </ul>
+                                    <a href="<?php get_site_url() ?>">Home</a>
                                 </li>
                                 <li><a href="about.html">About Us</a></li>
                                 <li><a href="shop.html">shop</a></li>
